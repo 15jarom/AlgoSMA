@@ -10,35 +10,59 @@ The speed of these transactions gave your firm a competitive advantage early on.
 
 # Results (Full instructions below)
 
-### The initital SMA model using 4 day and 100 day simple moving average was able to have the long term return of about 1.5, compared to actual return of ~1.4. that shows about 10% improvement over just holding the stock. 
+The initital SMA model using 4 day and 100 day simple moving average was able to have the long term return of about 1.5, compared to actual return of ~1.4. that shows about 10% improvement over just holding the stock. 
 
-   ![](Resources/Initial_Algo_Plot.png)
-   
-### Next, I tried to lengthen the training window from 3 months to 9, with a surprisingly bad result:
-
-  ![](Resources/Longer_train_window.png)
-  
-### Returning the training window to 3, I changed the SMA windows in three different experiments- 5/20, 5/50, 5/120. Here are the respective results:
-
-   ![](Resources/5_20_SMA.png)
-   
-   ![](Resources/5_50_SMA.png)
-   
-   ![](Resources/5_120_SMA.png)
-
-### Feeling defeated by those worse results, I went to try a completely different machine learning model- Logistic Regression. The first run through ended badly:
-
-   ![](Resources/lrm_first_try.png)
-   
-### Noticing that besically everything was backward, I simply swapped the trading signals around and ended with a much better performing model:
-
-   ![](Resources/lrm_second_try.png)
-   
-### This model had the highest peak return of over 1.8, but sadly went into the tank at the end of the overall time period. Perhaps identifying the reason it fell off at the end could help a lot to improve the performance. 
+![](Resources/'Initial Algo Plot'.png)
 
 
 
-#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Instructions:
