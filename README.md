@@ -30,7 +30,7 @@ The speed of these transactions gave your firm a competitive advantage early on.
 
    ![](Resources/lrm_first_try.png)
    
-### Noticing that besically everything was backward, I simply swapped the trading signals around and ended with a much better performing model:
+### Noticing that basically everything was backward, I simply swapped the trading signals around and ended with a much better performing model:
 
    ![](Resources/lrm_second_try.png)
    
